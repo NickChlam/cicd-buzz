@@ -20,5 +20,11 @@ def generate_buzz():
         sample(verbs), buzz_terms[1]])
     return phrase.title()
 
+def generate_list(length):
+    nums = list(range(1,length + 1))
+    return nums
+
 if __name__ == "__main__":
     print(generate_buzz())
+    x = generate_list(10)
+    print(x)

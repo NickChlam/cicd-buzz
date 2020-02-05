@@ -17,7 +17,7 @@ def test_sample_multiple_words():
 
 def test_generate_list():
     nums = generator.generate_list(10)
-    assert len(nums) == 10
+    assert len(nums) == 9
 
 def test_generate_buzz_of_at_least_five_words():
     phrase = generator.generate_buzz()
